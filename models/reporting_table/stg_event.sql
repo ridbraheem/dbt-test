@@ -25,6 +25,7 @@ SELECT
     JSON_EXTRACT_SCALAR(d , "$.address.address1")  AS address1,
     JSON_EXTRACT_SCALAR(d , "$.address.address2")  AS address2,
     JSON_EXTRACT_SCALAR(d , "$.address.capacityGoal")  AS capacityGoal,
-    JSON_EXTRACT_SCALAR(d , "$.address.city")  AS city
+    JSON_EXTRACT_SCALAR(d , "$.address.city")  AS city,
+    d as json_string
 FROM cte_start
 
