@@ -28,24 +28,3 @@ SELECT
     JSON_EXTRACT_SCALAR(d , "$.address.city")  AS city
 FROM cte_start
 
---pageviews
-    --pages_id
-    --anonymous_id
-    --users
-    --admin
-    --sent_at
-    --timestamp
-    --path_array
-    --path_depth
-    --path_array
-    --title
-    --url
-    --level_1
---users
-    --document_id
-    --event_id
-    --operation
-    --data
-
--- user_behavior which contains one row per user uuid.
--- active_last_14, active_last_30, first_touch_date, session_count, total_touches, first_touch_url.
